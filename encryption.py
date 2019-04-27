@@ -6,8 +6,8 @@ import os
 def encryption(s):
     s = s.replace(' ', '')  # remove white spaces
     square_root = math.sqrt(len(s))  # get square root
-    cols = math.ceil(square_root) # define columns
-    rows = math.floor(square_root) # define rows
+    cols = math.ceil(square_root)  # define columns
+    rows = math.floor(square_root)  # define rows
     if cols * rows < len(s):
         rows = math.ceil(square_root)  # ensure  cols * rows >= length of s
 
