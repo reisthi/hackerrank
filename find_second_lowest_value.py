@@ -20,5 +20,3 @@ for k, v in report.items():
 
 # print name in alphabetical order
 print(sorted(mult_values_list))
-
-# print(list(report))
