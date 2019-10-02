@@ -2,16 +2,15 @@ st = 'ABCDCDC'
 sub_st = 'CDC'
 
 
-def count_sub_string(str, sub_str):
-    
+def count_sub_string(string, sub_string):
+    counter = 0
+    len_sub_string = len(sub_string)
 
+    # iterate entire str
+    for x in range(len(string)):
+        # prevent index errors
+        if x <= (len(string) - len_sub_string):
 
-len_sub = len(sub_st)
-counter = 0
-for a in range(len(st)):
-  if a <= (len(st) - len_sub):
-    print(st[a:a + len_sub])
-    if sub_st in st[a:a + len_sub]:
-      counter += 1
-
-print(counter)
+            if sub_string in string[x:x + len_sub_string]:
+                counter += 1
+    return counter
