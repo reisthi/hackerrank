@@ -8,7 +8,7 @@ def gen_random_list(n, mini, maxi):
     return a_list
 
 
-def holy():
+def a_timer():
     start = timer()
     end = timer()
     print(f"Finished: {end - start} ms")
