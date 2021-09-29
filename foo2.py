@@ -15,6 +15,13 @@ def function_b():
     print("t2")
 
 
-n = 6
-aa = [2, 3, 6, 6, 5,]
+def c(a_string, size):
+    if len(a_string) > 1:
+        string_copy = a_string
+        while len(string_copy) <= size:
+            string_copy += a_string
+            if len(string_copy) == size:
+                break
+        return string_copy[:size].count(a_string[0])
+    return size
 
