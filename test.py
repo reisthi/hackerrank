@@ -1,6 +1,6 @@
 def function_a():
     print("a1")
-    from foo2 import functionB
+    # from foo2 import functionB
     print("a2")
     function_b()
     print("a3")
@@ -16,3 +16,8 @@ if __name__ == "__main__":
     function_a()
     print("m2")
     print("t2")
+
+
+def test(arr, k):
+    for i in range(len(arr)-k):
+        arr[i+k] - arr[i]
