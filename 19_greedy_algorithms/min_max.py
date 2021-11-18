@@ -18,3 +18,13 @@ def solution_one(k, array):
 def solution(k, array):
     array.sort()
     return min(array[i:k+1] - array[i] for i in range(0, len(array)))
+
+
+def test(k, array):
+    k = k - 1
+    new_array = list()
+    array.sort()
+    for i in range(len(array) - k):
+        print(f"i: {i} i+k: {i+k} array[i]: {array[i]} array[i+k]: {array[i+k]} ===> {array[i+k] - array[i]}")
+        new_array.append(array[i+k] - array[i])
+    return min(new_array)
