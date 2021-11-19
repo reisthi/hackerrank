@@ -10,13 +10,13 @@ second_lowest_value = report.get(''.join(second_lowest_key))
 
 mult_values_list = list()
 # for row in students:
-  # if row[1] == second_lowest_value:
-    # mult_values_list.append(row[0])  # appending names with same min value
+# if row[1] == second_lowest_value:
+# mult_values_list.append(row[0])  # appending names with same min value
 
 
 for k, v in report.items():
-  if v == second_lowest_value:
-    mult_values_list.append(k)
+    if v == second_lowest_value:
+        mult_values_list.append(k)
 
 # print name in alphabetical order
 print(sorted(mult_values_list))

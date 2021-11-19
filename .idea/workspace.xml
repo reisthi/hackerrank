@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1693346b-6c79-4d9e-a6b8-c3a02f2a34b4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/23_binary_trees/find_tree_height.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_making_anagrams/making_anagrams.py" beforeDir="false" afterPath="$PROJECT_DIR$/16_making_anagrams/making_anagrams.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/19_greedy_algorithms/min_max.py" beforeDir="false" afterPath="$PROJECT_DIR$/19_greedy_algorithms/min_max.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_find_second_lowest_value/find_second_lowest_value.py" beforeDir="false" afterPath="$PROJECT_DIR$/05_find_second_lowest_value/find_second_lowest_value.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_find_a_string/find_a_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_strings/find_a_string.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
