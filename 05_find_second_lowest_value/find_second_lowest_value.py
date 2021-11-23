@@ -20,3 +20,15 @@ for k, v in report.items():
 
 # print name in alphabetical order
 print(sorted(mult_values_list))
+
+
+def sol(x):
+    x = dict(x)
+    sec_lowest_scores = list()
+
+    low = sorted(x.values(), reverse=False)[1]
+
+    for key, value in x.items():
+        if value == low:
+            sec_lowest_scores.append(key)
+    return sec_lowest_scores

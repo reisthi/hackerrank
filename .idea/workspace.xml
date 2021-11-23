@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1693346b-6c79-4d9e-a6b8-c3a02f2a34b4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/utils/timer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_text_warp/text_warp.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/07_strings/text_warp.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_text_warp/text_warp.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_strings/text_warp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_staircase/staircase.py" beforeDir="false" afterPath="$PROJECT_DIR$/02_staircase/staircase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_extra_long_factorials/extra_long_factorials.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_extra_long_factorials/extra_long_factorials.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_encription/encryption.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/04_encryption/encryption.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_encription/encryption.py" beforeDir="false" afterPath="$PROJECT_DIR$/04_encryption/encryption.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_find_second_lowest_value/find_second_lowest_value.py" beforeDir="false" afterPath="$PROJECT_DIR$/05_find_second_lowest_value/find_second_lowest_value.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_strings/find_a_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_strings/find_a_string.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_print_problem/print_problem.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/07_strings/08_print_problem/print_problem.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_print_problem/print_problem.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_strings/08_print_problem/print_problem.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/12_sales_by_match/sales_by_match.py" beforeDir="false" afterPath="$PROJECT_DIR$/12_sales_by_match/sales_by_match.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

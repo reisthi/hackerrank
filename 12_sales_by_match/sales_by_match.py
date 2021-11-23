@@ -6,6 +6,7 @@ Example:
 """
 from collections import Counter
 
+
 def solution(array):
     """ Return the amount of pair of numbers in a list. """
     amount = 0

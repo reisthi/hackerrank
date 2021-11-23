@@ -30,4 +30,11 @@ def cc(string, sub_string):
     return counter
 
 
+def solution(string, substring):
+    counter = 0
 
+    for item in range(0, len(string)):
+        if string[item:len(substring)] == substring:
+            counter += 1
+
+    return counter

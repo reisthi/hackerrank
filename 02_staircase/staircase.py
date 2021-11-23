@@ -6,6 +6,7 @@ import random
 import re
 import sys
 
+
 # Complete the staircase function below.
 def staircase(n):
     index = 1

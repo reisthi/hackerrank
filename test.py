@@ -1,3 +1,7 @@
+import time
+from utils.timer import Timer
+
+
 def function_a():
     print("a1")
     # from foo2 import functionB
@@ -67,3 +71,24 @@ def sol_2(nums, val):
     while val in nums:
         nums.remove(val)
     return len(nums)
+
+
+def fact(x):
+    t = Timer()
+    t.start()
+    product = 1
+    for i in range(x):
+        product = product * (i + 1)
+    t.stop()
+    return product
+
+
+def fact_recursion(x):
+    if x == 0:
+        return x
+    else:
+        return x * fact_recursion(x - 1)
+
+
+
+
