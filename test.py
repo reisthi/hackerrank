@@ -90,5 +90,33 @@ def fact_recursion(x):
         return x * fact_recursion(x - 1)
 
 
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution:
+    def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
+        list_1 = []
+        list_2 = []
 
+        node_one, node_two = l1, l2
+        while node_one or node_two is not None:
+            if node_one:
+                list_1.append(node.val)
+            node = node.next
 
+        node = l2
+        while node is not None:
+            list_2.append(node.val)
+            node = node.next
+
+        x = ''.join(map(str, list_1))
+        y = ''.join(map(str, list_2))
+
+        xx, yy = int(x[::-1]), int(y[::-1])
+
+        result = list(map(int, str(xx + yy)[::-1]))
+
+        # print(list_1, list_2, final)
+        return result
